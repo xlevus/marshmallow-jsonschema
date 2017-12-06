@@ -207,7 +207,6 @@ class JSONSchema(Schema):
 
         # and the schema is just a reference to the def
         schema = {
-            'type': 'object',
             '$ref': '#/definitions/{}'.format(name)
         }
 
